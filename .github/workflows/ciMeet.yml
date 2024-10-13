@@ -24,7 +24,7 @@ jobs:
       working-directory: ./Meet-reactVite-app
 
     - name: Run tests
-      run: npm test -- --watchAll=false
+      run: npm test 
       working-directory: ./Meet-reactVite-app
 
     - name: Build project
